@@ -1,2 +1,4 @@
 # pineappleWeightPrediction
 Pineapple Detection, Ripeness Classification, and Weight Prediction
+
+ This research presents a framework utilizing YOLOv8 for pineapple detection and ripeness classification through drone imagery. After detecting and classifying pineapples, we employ bounding box and binary mask fitting techniques, including Circle Fitting (CF), Ellipse Fitting (EF), Circle Enclosing (CE), and Rotated Rectangle (RR), to estimate pineapple size by converting pixel-based measurements to millimetres. Finally, the current research predicted the weight of the pineapples by employing linear and nonlinear models. This work used linear models such as Linear Regression, Polynomial Regression, and nonlinear-based machine learning models such as Support Vector Regressor, Decision Tree, and K-Nearest Neighbor, with pixel counts as the input parameter for predicting pineapple weight.
